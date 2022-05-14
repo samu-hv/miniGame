@@ -124,6 +124,11 @@ h1 {
     box-sizing: border-box;
   }
 
+  h1 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+
   .btn {
     padding: 1.5rem 1.5rem;
   }
@@ -133,11 +138,31 @@ h1 {
     line-height: 2.5rem;
   }
 
+  .number {
+    width: 13rem;
+    padding: 2rem 0rem;
+  }
+
   main {
     flex-direction: column;
   }
 
+  .left {
+    width: 40rem;
+    margin-top: 8rem;
+  }
+
+  .guess {
+    padding: 1.5rem;
+    width: 20rem;
+  }
+
   .right {
+    width: 40rem;
     text-align: center;
+  }
+
+  .message {
+    margin-bottom: 5rem;
   }
 }
